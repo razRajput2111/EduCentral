@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpenText, LayoutGrid, UserCircle, LogIn, Edit3, FileText } from 'lucide-react';
+import { BookOpenText, LayoutGrid, UserCircle, LogIn, Edit3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -12,7 +12,6 @@ import {
 
 const navLinks = [
   { href: '/', label: 'Courses', icon: LayoutGrid },
-  { href: '/reviews', label: 'Review Analyzer', icon: FileText },
 ];
 
 export function Header() {
