@@ -80,7 +80,7 @@ export const mockCourses: Course[] = [
     teacherId: 't004',
     description: 'Start your journey to learn Spanish with a focus on practical conversation skills and basic grammar.',
     schedule: 'Mon, Wed - 6:00 PM GMT',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1697606563285-88fdef7e4b01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8c3BhbmlzaCUyMGJvb2tzfGVufDB8fHx8MTc0OTE4ODI0OHww&ixlib=rb-4.1.0&q=80&w=1080',
     liveClassLink: 'https://meet.google.com/new',
     Icon: Languages,
     imageHint: 'language learning',
