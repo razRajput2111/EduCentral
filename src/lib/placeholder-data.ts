@@ -144,7 +144,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Ms. Sofia Cruz',
     subjects: ['Spanish', 'French'],
     bio: 'A language enthusiast committed to fostering cross-cultural understanding through language learning.',
-    imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYW5ndWFnZSUyMHRlYWNoZXJ8ZW58MHx8fHwxNzQ5MTg4Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1481214110143-ed630356e1bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21lbnxlbnwwfHx8fDE3NDkxODkwNjh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'linguist books',
   },
   {
