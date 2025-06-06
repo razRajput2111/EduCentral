@@ -136,7 +136,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Mr. Leo Maxwell',
     subjects: ['Digital Painting', 'Illustration'],
     bio: 'An experienced digital artist helping students unleash their creativity through modern tools and techniques.',
-    imageUrl: 'https://images.unsplash.com/photo-1548100098-72591049e024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnQlMjB0ZWFjaGVyfGVufDB8fHx8MTc0OTE4ODc0OHww&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8bWVufGVufDB8fHx8MTc0OTA3NDk0M3ww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'artist studio',
   },
   {
