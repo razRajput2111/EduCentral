@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import { Atom, Calculator, Palette, Languages, Video, BookOpen, Users, Brain } from 'lucide-react';
+import { Atom, Calculator, Palette, Languages, Video, BookOpen, Users, Brain, UserSquare2 } from 'lucide-react';
 
 export interface Course {
   id: string;
@@ -15,6 +15,16 @@ export interface Course {
   studyMaterialsLink?: string;
   Icon?: LucideIcon;
   imageHint?: string;
+}
+
+export interface Teacher {
+  id: string;
+  name: string;
+  subjects: string[];
+  bio: string;
+  imageUrl: string;
+  imageHint?: string;
+  profileLink?: string; 
 }
 
 export const mockCourses: Course[] = [
@@ -85,7 +95,7 @@ export const mockCourses: Course[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     recordedVideoLink: 'https://youtube.com',
     studyMaterialsLink: '#',
-    Icon: Brain, // Using Brain for technology/coding
+    Icon: Brain, 
     imageHint: 'coding computer',
   },
   {
@@ -103,6 +113,58 @@ export const mockCourses: Course[] = [
   },
 ];
 
+export const mockTeachers: Teacher[] = [
+  {
+    id: 't001',
+    name: 'Dr. Aris Thorne',
+    subjects: ['Quantum Physics', 'Astrophysics'],
+    bio: 'Passionate about unraveling the mysteries of the universe and inspiring the next generation of scientists.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'scientist portrait',
+  },
+  {
+    id: 't002',
+    name: 'Prof. Evelyn Reed',
+    subjects: ['Calculus', 'Linear Algebra'],
+    bio: 'Dedicated to making complex mathematical concepts accessible and engaging for all students.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'mathematician teaching',
+  },
+  {
+    id: 't003',
+    name: 'Mr. Leo Maxwell',
+    subjects: ['Digital Painting', 'Illustration'],
+    bio: 'An experienced digital artist helping students unleash their creativity through modern tools and techniques.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'artist studio',
+  },
+  {
+    id: 't004',
+    name: 'Ms. Sofia Cruz',
+    subjects: ['Spanish', 'French'],
+    bio: 'A language enthusiast committed to fostering cross-cultural understanding through language learning.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'linguist books',
+  },
+  {
+    id: 't005',
+    name: 'Mr. Kenji Tanaka',
+    subjects: ['Web Development', 'Software Engineering'],
+    bio: 'Guiding aspiring developers through the ever-evolving landscape of technology with practical, hands-on experience.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'developer coding',
+  },
+  {
+    id: 't006',
+    name: 'Dr. Eleanor Vance',
+    subjects: ['Ancient History', 'Archaeology'],
+    bio: 'Bringing the past to life by exploring ancient civilizations and their enduring legacies.',
+    imageUrl: 'https://placehold.co/400x400.png',
+    imageHint: 'historian artifacts',
+  }
+];
+
+
 export const getSubjectIcon = (subject: string): LucideIcon => {
   switch (subject.toLowerCase()) {
     case 'science':
@@ -118,6 +180,6 @@ export const getSubjectIcon = (subject: string): LucideIcon => {
     case 'humanities':
       return BookOpen;
     default:
-      return Users; // Generic icon
+      return UserSquare2; 
   }
 };
