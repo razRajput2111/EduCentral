@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 import { Atom, Calculator, Palette, Languages, Video, BookOpen, Users, Brain, UserSquare2 } from 'lucide-react';
 
@@ -24,7 +25,7 @@ export interface Teacher {
   bio: string;
   imageUrl: string;
   imageHint?: string;
-  profileLink?: string; 
+  profileLink?: string;
 }
 
 export const mockCourses: Course[] = [
@@ -51,7 +52,7 @@ export const mockCourses: Course[] = [
     teacherId: 't002',
     description: 'Deep dive into advanced calculus, including multivariable calculus and differential equations.',
     schedule: 'Tue, Thu - 2:00 PM GMT',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1708011271935-3e109df56fe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8Y2FsY3VsdXMlMjB8ZW58MHx8fHwxNzQ5MTg3OTU5fDA&ixlib=rb-4.1.0&q=80&w=1080',
     liveClassLink: 'https://zoom.us/join',
     studyMaterialsLink: '#',
     Icon: Calculator,
@@ -95,7 +96,7 @@ export const mockCourses: Course[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     recordedVideoLink: 'https://youtube.com',
     studyMaterialsLink: '#',
-    Icon: Brain, 
+    Icon: Brain,
     imageHint: 'coding computer',
   },
   {
@@ -180,6 +181,6 @@ export const getSubjectIcon = (subject: string): LucideIcon => {
     case 'humanities':
       return BookOpen;
     default:
-      return UserSquare2; 
+      return UserSquare2;
   }
 };
