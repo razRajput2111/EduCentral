@@ -152,7 +152,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Mr. Kenji Tanaka',
     subjects: ['Web Development', 'Software Engineering'],
     bio: 'Guiding aspiring developers through the ever-evolving landscape of technology with practical, hands-on experience.',
-    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RpbmclMjB0ZWFjaGVyfGVufDB8fHx8MTc0OTE4ODgyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8bWVufGVufDB8fHx8MTc0OTA3NDk0M3ww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'developer coding',
   },
   {
