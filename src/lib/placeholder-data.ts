@@ -120,7 +120,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Dr. Aris Thorne',
     subjects: ['Quantum Physics', 'Astrophysics'],
     bio: 'Passionate about unraveling the mysteries of the universe and inspiring the next generation of scientists.',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZW58ZW58MHx8fHwxNzQ5MDc0OTQzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJpdGlzaCUyMG1hbnxlbnwwfHx8fDE3NDkxODkyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'scientist portrait',
   },
   {
