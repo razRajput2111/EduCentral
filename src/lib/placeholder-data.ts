@@ -66,7 +66,7 @@ export const mockCourses: Course[] = [
     teacherId: 't003',
     description: 'Learn the basics of digital painting, from software tools to artistic techniques. No prior experience needed.',
     schedule: 'Sat - 11:00 AM GMT',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1613746203812-717e6e5db3da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcnQlMjBhbmQlMjBkZXNpZ258ZW58MHx8fHwxNzQ5MTg4MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     recordedVideoLink: 'https://youtube.com',
     studyMaterialsLink: '#',
     Icon: Palette,
