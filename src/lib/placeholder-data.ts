@@ -120,7 +120,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Dr. Aris Thorne',
     subjects: ['Quantum Physics', 'Astrophysics'],
     bio: 'Passionate about unraveling the mysteries of the universe and inspiring the next generation of scientists.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTc4NzYyMDF8MA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1518556336318-c8de4355ccab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8cHJvZmVzc29yc3xlbnwwfHx8fDE3NDkxODg2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'scientist portrait',
   },
   {
@@ -128,7 +128,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Prof. Evelyn Reed',
     subjects: ['Calculus', 'Linear Algebra'],
     bio: 'Dedicated to making complex mathematical concepts accessible and engaging for all students.',
-    imageUrl: 'https://images.unsplash.com/photo-1518672949348-5aa1800b95b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRoZW1hdGljaWFuJTIwdGVhY2hpbmd8ZW58MHx8fHwxNzE3ODc2MjU4fDA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXRoJTIwdGVhY2hlcnxlbnwwfHx8fDE3NDkxODg3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mathematician teaching',
   },
   {
@@ -136,7 +136,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Mr. Leo Maxwell',
     subjects: ['Digital Painting', 'Illustration'],
     bio: 'An experienced digital artist helping students unleash their creativity through modern tools and techniques.',
-    imageUrl: 'https://images.unsplash.com/photo-1501004308641-882d499bdde0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnRpc3QlMjBzdHVkaW98ZW58MHx8fHwxNzE3ODc2MzAyfDA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1548100098-72591049e024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnQlMjB0ZWFjaGVyfGVufDB8fHx8MTc0OTE4ODc0OHww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'artist studio',
   },
   {
@@ -144,7 +144,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Ms. Sofia Cruz',
     subjects: ['Spanish', 'French'],
     bio: 'A language enthusiast committed to fostering cross-cultural understanding through language learning.',
-    imageUrl: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaW5ndWlzdCUyMGJvb2tzfGVufDB8fHx8fDE3MTc4NzYzNDN8MA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYW5ndWFnZSUyMHRlYWNoZXJ8ZW58MHx8fHwxNzQ5MTg4Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'linguist books',
   },
   {
@@ -152,7 +152,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Mr. Kenji Tanaka',
     subjects: ['Web Development', 'Software Engineering'],
     bio: 'Guiding aspiring developers through the ever-evolving landscape of technology with practical, hands-on experience.',
-    imageUrl: 'https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBjb2Rpbmd8ZW58MHx8fHwxNzE3ODc2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RpbmclMjB0ZWFjaGVyfGVufDB8fHx8MTc0OTE4ODgyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'developer coding',
   },
   {
@@ -160,7 +160,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Dr. Eleanor Vance',
     subjects: ['Ancient History', 'Archaeology'],
     bio: 'Bringing the past to life by exploring ancient civilizations and their enduring legacies.',
-    imageUrl: 'https://images.unsplash.com/photo-1581801878057-7005e6ec4f13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaXN0b3JpYW4lMjBhcnRpZmFjdHN8ZW58MHx8fHwxNzE3ODc2NDMxfDA&ixlib=rb-4.1.0&q=80&w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1582206000900-6a53bc0f78f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoaXN0b3J5JTIwdGVhY2hlcnxlbnwwfHx8fDE3NDkxODg4NjB8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'historian artifacts',
   }
 ];
