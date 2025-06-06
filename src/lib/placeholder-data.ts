@@ -93,7 +93,7 @@ export const mockCourses: Course[] = [
     teacherId: 't005',
     description: 'A comprehensive bootcamp covering React, Node.js, and modern web development practices.',
     schedule: 'Flexible (Self-paced with weekly Q&A)',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8fHwxNzQ5MTg4MzUzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     recordedVideoLink: 'https://youtube.com',
     studyMaterialsLink: '#',
     Icon: Brain,
