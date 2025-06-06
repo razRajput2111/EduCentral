@@ -160,7 +160,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Dr. Eleanor Vance',
     subjects: ['Ancient History', 'Archaeology'],
     bio: 'Bringing the past to life by exploring ancient civilizations and their enduring legacies.',
-    imageUrl: 'https://images.unsplash.com/photo-1582206000900-6a53bc0f78f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoaXN0b3J5JTIwdGVhY2hlcnxlbnwwfHx8fDE3NDkxODg4NjB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxicml0aXNoJTIwbWFufGVufDB8fHx8MTc0OTE4OTIwNXww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'historian artifacts',
   }
 ];
