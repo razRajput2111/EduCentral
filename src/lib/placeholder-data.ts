@@ -128,7 +128,7 @@ export const mockTeachers: Teacher[] = [
     name: 'Prof. Evelyn Reed',
     subjects: ['Calculus', 'Linear Algebra'],
     bio: 'Dedicated to making complex mathematical concepts accessible and engaging for all students.',
-    imageUrl: 'https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXRoJTIwdGVhY2hlcnxlbnwwfHx8fDE3NDkxODg3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1601655781320-205e34c94eb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzb3J8ZW58MHx8fHwxNzQ5MTg4OTQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mathematician teaching',
   },
   {
