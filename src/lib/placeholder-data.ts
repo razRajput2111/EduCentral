@@ -107,7 +107,7 @@ export const mockCourses: Course[] = [
     teacherId: 't006',
     description: 'Journey through time to explore the rise and fall of ancient empires and their impact on modern society.',
     schedule: 'Tue, Thu - 9:00 AM GMT',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1472173148041-00294f0814a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoaXN0b3J5fGVufDB8fHx8MTc0OTE4ODQyOHww&ixlib=rb-4.1.0&q=80&w=1080',
     liveClassLink: 'https://zoom.us/join',
     Icon: BookOpen,
     imageHint: 'ancient ruins',
@@ -184,3 +184,4 @@ export const getSubjectIcon = (subject: string): LucideIcon => {
       return UserSquare2;
   }
 };
+
