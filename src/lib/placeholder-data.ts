@@ -36,7 +36,7 @@ export const mockCourses: Course[] = [
     teacherId: 't001',
     description: 'Explore the fascinating world of quantum mechanics and its core principles. Suitable for beginners with a passion for science.',
     schedule: 'Mon, Wed, Fri - 10:00 AM GMT',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1633493702341-4d04841df53b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxxdWFudGFtJTIwcGh5c2ljc3xlbnwwfHx8fDE3NDkxODc4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     liveClassLink: 'https://meet.google.com/new',
     recordedVideoLink: 'https://youtube.com',
     studyMaterialsLink: '#',
